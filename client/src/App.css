@@ -1,0 +1,85 @@
+.App {
+  /* text-align: center; */
+  font-family: "Bungee", cursive;
+  background-color: rgb(39, 35, 35);
+  text-align: center;
+  margin: auto;
+  scroll-behavior: none;
+}
+
+.guitar-body {
+  fill: rgb(173, 114, 62);
+  filter: url(#dropshadow);
+}
+
+.clip6 {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+.clip5 {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.clip4 {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+}
+.clip3 {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+.clip2 {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.clip {
+  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+  animation: blur 06s ease-in-out infinite;
+  -webkit-animation: blur 06s ease-in-out infinite;
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+@keyframes blur {
+  0% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  90% {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+  }
+  50% {
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+  }
+}
+
+/* filter: blur(3px);
+-webkit-filter: blur(3px);
+-moz-filter: blur(3px);
+-o-filter: blur(3px);
+-ms-filter: blur(3px);
+filter: url(blur.svg#blur);
+filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3'); */

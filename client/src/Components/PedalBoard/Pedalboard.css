@@ -1,0 +1,301 @@
+.pedalboard-head {
+  text-shadow: 2px 2px #929174;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.pedalboard-head:hover {
+  color: rgb(236, 181, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+}
+
+.signal-flow-header {
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+}
+
+.pedalboard-card {
+  border: 3px solid rgb(168, 157, 4);
+  box-shadow: 15px 15px #1a1a1a;
+  -webkit-box-shadow-stroke-width: 0.75px;
+  -webkit-box-shadow-stroke-color: black;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  background-image: url("../../michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  background-size: 100%;
+  margin-bottom: 3vw;
+  transition: all 7s ease-in-out;
+}
+
+.pedalboard-card:hover {
+  box-shadow: -30px -20px #1a1a1a;
+  transition: all 7s ease-in-out;
+}
+
+.pedalboard {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  /* overflow: scroll; */
+  /* scroll-behavior: scroll; */
+}
+
+.pedalboard-pedal-card-header {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Bungee", cursive;
+  padding: 10px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.pedalboard-pedal-card-header:hover {
+  font-family: "Bungee", cursive;
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 30px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.signal-flow-arrow {
+  color: rgb(236, 181, 0);
+
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  margin-top: 50% auto;
+  font-size: 80px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 3s ease-in-out;
+}
+
+.signal-flow-arrow:hover {
+  font-family: "Bungee", cursive;
+  margin-top: 50% auto;
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 95px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.pedalboard-signal-arrow1 {
+  font-weight: bold;
+  transform: rotate(-90deg);
+  margin: -20px;
+}
+.pedalboard-signal-arrow {
+  transform: rotate(90deg);
+  margin: -15px;
+}
+
+.pedalboard-pedal-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(117, 56, 56);
+  /* max-width: 300px;
+  max-height: 500px; */
+  border: 1px solid rgb(168, 157, 4);
+  border-radius: 20px;
+  margin: 10px auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  word-wrap: wrap;
+  box-shadow: 7.5px 7.5px 0 #1a1a1a;
+  -webkit-box-shadow-stroke-width: 0.75px;
+  -webkit-box-shadow-stroke-color: black;
+}
+
+.pedalboard-pedal-card-title {
+  word-wrap: break-word;
+}
+
+.pedalboard-pedal-card-image {
+  max-width: 240px;
+  max-height: 400px;
+  margin: 5px auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(65, 25, 25);
+}
+
+.update-pedalboard {
+  margin: auto;
+  font-family: "Bungee", cursive;
+  padding: 5px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  background-image: url("../Navbar/michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+.update-pedalboard:hover {
+  font-family: "Bungee", cursive;
+  background-color: rgb(66, 51, 51);
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.delete-pedalboard {
+  margin: auto;
+  font-family: "Bungee", cursive;
+  padding: 5px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  background-image: url("../Navbar/michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+.delete-pedalboard:hover {
+  font-family: "Bungee", cursive;
+  background-color: rgb(66, 51, 51);
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.new-pedalboard-head {
+  text-shadow: 2px 2px #929174;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+}
+.new-pedalboard-head:hover {
+  color: rgb(236, 181, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+}
+
+.new-pedalboard-link {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Bungee", cursive;
+  padding: 10px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding-bottom: 10px;
+  transition: all 3s ease-in-out;
+}
+
+.new-pedalboard-link:hover {
+  font-family: "Bungee", cursive;
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 35px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.new-pedalboard-body {
+  /* width: 90%; */
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+  /* scroll-behavior: scroll; */
+}
+.new-pedalboard-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgb(117, 56, 56);
+  max-width: 300px;
+  max-height: 500px;
+  border: 1px solid rgb(168, 157, 4);
+  border-radius: 20px;
+  margin: 10px auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.new-pedalboard-pedal-img {
+  max-width: 60px;
+  max-height: 100px;
+  margin: 5px auto;
+  /* border: 1px solid black;
+  border-radius: 20px; */
+}
+
+.new-pedalboard-card-name {
+  width: 100px;
+  text-wrap: wrap;
+}

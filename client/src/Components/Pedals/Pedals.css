@@ -1,0 +1,244 @@
+.pedals-head,
+.my-pedals-head {
+  text-shadow: 2px 2px #929174;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+}
+
+.pedals-head:hover,
+.my-pedals-head:hover {
+  color: rgb(236, 181, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+}
+
+/* .pedals {
+  border: 3px solid rgb(103, 122, 68);
+  border-radius: 20px;
+  padding: 10px;
+  margin: auto;
+  
+} */
+
+.pedal {
+  border: 3px solid rgb(168, 157, 4);
+  box-shadow: 15px 15px #1a1a1a;
+  -webkit-box-shadow-stroke-width: 0.75px;
+  -webkit-box-shadow-stroke-color: black;
+  border-radius: 20px;
+  width: 450px;
+  margin: auto;
+  background-color: rgb(117, 56, 56);
+  margin-bottom: 3vw;
+  transition: all 7s ease-in-out;
+}
+
+.pedal:hover {
+  box-shadow: -30px -20px #1a1a1a;
+  transition: all 7s ease-in-out;
+}
+
+.new-pedal {
+  border: 3px solid rgb(168, 157, 4);
+  border-radius: 20px;
+  width: 450px;
+  margin: auto;
+  background-color: rgb(117, 56, 56);
+  /* text-align: center; */
+  /* font-kerning: auto;
+  display: block;
+  justify-content: center; */
+  /* font-kerning: inherit; */
+  /* display: flex; */
+  justify-items: stretch;
+
+  padding: 10px;
+}
+.new-pedal-header {
+  text-shadow: 2px 2px #929174;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.new-pedal-form {
+  display: flex;
+  flex-flow: column;
+  /* justify-items: stretch; */
+
+  padding: 10px;
+}
+
+.new-pedal-link {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Bungee", cursive;
+  padding: 10px;
+  color: rgb(216, 171, 104);
+  /* filter: brightness(2);
+  -webkit-filter: brightness(2); */
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding-bottom: 10px;
+  transition: all 3s ease-in-out;
+}
+.pedal-nav-links {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 0rem 0.15rem;
+}
+.new-pedal-link:hover {
+  font-family: "Bungee", cursive;
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 35px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.my-pedals-link {
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: "Bungee", cursive;
+  padding: 10px;
+  color: rgb(216, 171, 104);
+  /* filter: brightness(2);
+  -webkit-filter: brightness(2); */
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 25px;
+  padding-bottom: 10px;
+  transition: all 3s ease-in-out;
+}
+
+.my-pedals-link:hover {
+  font-family: "Bungee", cursive;
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 35px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.new-pedal-submit-button {
+  margin: auto;
+  font-family: "Bungee", cursive;
+  padding: 5px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  background-image: url("../Navbar/michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.new-pedal-submit-button:hover {
+  font-family: "Bungee", cursive;
+  background-color: rgb(66, 51, 51);
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+
+.pedal-name {
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  text-decoration: underline rgb(216, 171, 104);
+}
+
+.pedal-name:hover {
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  text-decoration: underline rgb(216, 171, 104);
+}
+
+.pedal-img {
+  max-width: 300px;
+  max-height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(65, 25, 25);
+  transition: all 3s ease-in-out;
+}
+.pedal-img:hover {
+  max-width: 300px;
+  max-height: 500px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: -10px -10px rgb(65, 25, 25);
+  transition: all 3s ease-in-out;
+}
+
+.add-pedal {
+  font-family: "Bungee", cursive;
+  padding: 5px;
+  margin: 10px;
+  color: rgb(216, 171, 104);
+  filter: brightness(2);
+  -webkit-filter: brightness(2);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  background-image: url("../Navbar/michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}
+.add-pedal:hover {
+  font-family: "Bungee", cursive;
+  background-color: rgb(66, 51, 51);
+
+  color: rgb(228, 156, 0);
+  text-shadow: 3px 3px #b9d46f;
+  -webkit-text-shadow-stroke-width: 1px;
+  -webkit-text-shadow-stroke-color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: black;
+  transition: all 3s ease-in-out;
+  border-radius: 10px;
+}

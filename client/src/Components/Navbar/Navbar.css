@@ -1,0 +1,236 @@
+.NavbarItems {
+  /* background: linear-gradient(90deg, rgb(160, 76, 76) 0%, rgb(58, 0, 0) 120%); */
+  background-image: url("michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+  background-size: 75%;
+  min-height: 120px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.8rem;
+  list-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+  color: transparent;
+}
+
+/* .NavbarItems:hover {
+  min-height: 300px;
+} */
+
+.navbar-logo {
+  color: rgb(255, 209, 139);
+  text-shadow: 2px 2px #1d1c00;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  top: 10px;
+
+  transition: all 2s ease-in-out;
+}
+.navbar-logo:hover {
+  color: rgb(248, 187, 96);
+  text-shadow: 10px 8px #879e4db0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  top: 6px;
+  transition: all 2s ease-in-out;
+}
+
+.nav-links {
+  color: rgb(255, 209, 139);
+  text-shadow: 2px 2px #1d1c00;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+  max-width: 50%;
+  text-shadow: 1.5px 1.5px #353424;
+  -webkit-text-shadow-stroke-width: 0.5px;
+  -webkit-text-shadow-stroke-color: black;
+}
+
+.nav-links:hover {
+  color: rgb(104, 84, 54);
+  max-width: 20%;
+  border-radius: 30px;
+  transition: all 5s ease-out;
+  text-shadow: 4px 4px rgb(255, 185, 79);
+  -webkit-text-shadow-stroke-width: 0.5px;
+  -webkit-text-shadow-stroke-color: black;
+}
+
+.pedals:hover {
+  fill: rgb(148, 62, 76);
+}
+
+.pedal1:hover {
+  fill: rgb(145, 0, 24);
+}
+.pedal2:hover {
+  fill: rgb(0, 247, 82);
+}
+.pedal3:hover {
+  fill: rgb(247, 161, 0);
+}
+
+.fa-bars {
+  color: rgb(255, 209, 139);
+  text-shadow: 2px 2px #1d1c00;
+  transition: all 2s ease-in-out;
+  margin-right: 3%;
+}
+
+.fa-bars:hover {
+  color: rgb(248, 187, 96);
+  text-shadow: 10px 8px #879e4db0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  justify-self: start;
+  /* margin-left: 20px; */
+  cursor: pointer;
+  top: 6px;
+  transition: all 5s ease-in-out;
+}
+.fa-bars:active {
+  color: rgb(94, 0, 16);
+  text-shadow: 2px 2px #1d1c00;
+}
+
+.fa-times {
+  color: rgb(255, 209, 139);
+  text-shadow: 2px 2px #1d1c00;
+}
+.fa-times:active {
+  color: rgb(94, 0, 16);
+  text-shadow: 2px 2px #1d1c00;
+}
+
+.fa-times:hover {
+  color: rgb(248, 187, 96);
+  text-shadow: 10px 8px #879e4db0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  justify-self: start;
+  /* margin-left: 20px; */
+  cursor: pointer;
+  top: 6px;
+  transition: all 5s ease-in-out;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    background-image: fixed url("michael-dziedzic-zqbTr1jwSxc-unsplash.jpg"),
+      0.3;
+
+    background-size: 700px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 0px;
+    min-height: 300px;
+    position: absolute;
+    top: 120px;
+    left: -25%;
+    opacity: 1;
+    transition: all 0.175s ease-in-out;
+    visibility: hidden;
+    /* transform: rotate(90deg); */
+  }
+
+  .nav-menu.active {
+    visibility: visible;
+    background-image: url("michael-dziedzic-zqbTr1jwSxc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 700px;
+
+    /* top: 180px; */
+
+    border-radius: 30px;
+    max-width: 600px;
+    min-height: 300px;
+    left: 0%;
+    position: absolute;
+    top: 120px;
+    opacity: 100%;
+    transition: all 2s ease-in-out;
+    z-index: 1;
+    /* transform: rotate(0deg); */
+  }
+
+  .nav-links {
+    position: relative;
+    text-align: left;
+    padding: 2rem;
+    max-width: 60%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: rgba(56, 0, 9, 0.822);
+    border-radius: 20;
+    padding: 2rem;
+    margin-left: 20px;
+    transition: all 2s ease-in-out;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-15%, 20%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(60%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  /* .nav-links-mobile {
+    display: block;
+    width: %;
+    left: -60px;
+    color: white;
+    text-align: left;
+    padding: 1.5rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    background-color: goldenrod;
+  }
+  .nav-links-mobile:hover {
+    display: block;
+    width: %;
+    left: -60px;
+    color: white;
+    text-align: left;
+    padding: 1.5rem;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+    background-color: goldenrod;
+  } */
+
+  /* Button {
+    display: none;
+  } */
+}
